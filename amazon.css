@@ -1,0 +1,1501 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    font-weight: 501;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 54px;
+    width: 195px;
+    margin-left: -40px;
+    margin-right: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 93px;
+    width: 174px;
+    margin-right: 3px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/**box-2**/
+
+.nav-add{
+    width: 140px;
+}
+
+.nav-add{
+    padding-left: 10px;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.75rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 15px;
+    /* padding-left: 10px; */
+    font-weight: 501;
+}
+
+.add-second{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.add-ion p{
+    font-weight: 300px;
+}
+
+/**box-3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-input:hover{
+    border: 3px solid orange;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.3rem;
+background-color: orange;
+color: black;
+border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.nav-country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nav-country p{
+    font-family:serif;
+       font-weight: 500px;
+}
+
+.nav-flag{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    width: 80px;
+}
+
+.country-p{
+    font-size: 1.3rem;
+    padding-top: 7px;
+    padding-left: 2px;
+}
+
+/**box-4**/
+span{
+    font-size: 0.7rem;
+}
+
+span i{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 1rem;
+    font-weight: 200px;
+}
+
+.nav-sigin{
+    width: 115px;
+    padding-left: 10px;
+}
+
+.nav-return{
+    width: 76px;
+    padding-left: 10px;
+}
+
+.nav-cart-icon{
+    font-size: 1.8rem;
+}
+
+.cart{
+    font-size: 1rem;
+    padding-top: 12px;
+    font-weight:700 ;
+}
+
+.nav-cart{
+    display: flex;
+    width: 70px;
+    padding-left: 12px;
+}
+
+/**panel**/
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.panel-option a{
+    display: inline;
+color: white;
+text-decoration: none;
+margin-left: 15px;
+font-weight: 200;
+}
+
+.panel-option{
+    width: 70%;
+    font-size: 0.85rem;
+    padding-left: 53px;
+    margin-right: 130px;
+}
+
+.panel-option a:hover{
+    color: yellow;
+}
+
+.panel-deals a {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.panel-deals a:hover{
+    color: yellow;
+}
+
+.panel-all{
+   padding-left: 20px;
+}
+
+.all{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.all:hover{
+    color: yellow;
+}
+
+/**hero-section**/
+.hero-section{
+    background-image: url(hero_image.jpg);    
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-msg-link{
+    color: #007185;
+    text-decoration: none;
+}
+
+.hero-msg-link :hover{
+    color: #4a94a1;
+}
+
+.hero-msg{
+    background-color: white;
+     height: 30px;
+     width: 85%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 0.87rem;
+     margin-bottom: 50px;
+}
+
+/**shop-setion**/
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin-top: 15px; */
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 420px;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.box-img{
+    height:330px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.seemore{
+    color: #007185;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.box-img-1{
+    height: 290px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.hero-section-2{
+    background-image: url(PC_Hero_3000x1200_2X_EN._CB600991698_.jpg);
+    background-size: cover;
+    height: 356px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 20px;
+}
+
+
+/**shop-sectio-2**/
+
+
+.shop-section-2{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 15px; */
+    background-color: #e2e7e6;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/**phones--1**/
+
+
+.item_1{
+    height: 578px;
+    width: 430px;
+    border: 2px solid black;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 15px;
+    margin-top: 18px;
+    margin-bottom: 50px;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.item_1 img{
+    height: 315px;
+    width: 307px;
+}
+
+.para-1-0_1{
+    font-size: 1.5rem;
+    margin-left: -5px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #007185;
+}
+
+.para-1-1_1{
+    color: green;
+    margin-left: -240px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.para-1-2_1{
+    margin-left: 11px;
+    margin-top: 6px;
+    border: 2px dashed black;
+    width: 134px;
+    height: 22px;
+}
+
+.para-1-2_1{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.para-1-3_1{
+    margin-left: -107px;
+    margin-top: 9px;
+}
+
+.off_1{
+    background-color: rgb(223, 22, 22);
+    height: 42px;
+    width: 85px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.para-1-4_1{
+    color: red;
+    margin-top: -36px;
+    margin-left: -1px;
+    font-weight: 1000;
+}
+
+.para-1-5_1{
+    color: black;
+    font-size: 2.3rem;
+margin-left: -175px;
+margin-top: 16px;
+font-weight: bolder;
+}
+
+.para-1-6_1{
+    margin-left: -236px;
+    margin-top: 5px;
+}
+
+.para-1-7_1{
+    margin-left: -101px;
+    margin-top: -18px;
+    text-decoration: line-through;
+}
+/* 
+.sup-para-1{
+    font-size: 1.2rem;
+     padding-top: 100px;
+} */
+
+.item-cover{
+    height: 622px;
+    width: 100%;
+    background-color: #ddd;
+   margin-top: -21px;
+    padding-top: 22px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.item-cover::webkit-scrollbar{
+    width: 0;
+}
+
+.item-cover  .item{
+    width: 470px;
+    height: 578px;
+    
+}
+
+/**phone__2**/
+
+.item_2{
+    height: 578px;
+    width: 430px;
+    border: 2px solid black;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 15px;
+    margin-top: 18px;
+    margin-bottom: 50px;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.item_2  img{
+    height: 295px;
+    width: 296px;
+}
+
+.para-1_2{
+    font-size: 1.5rem;
+    margin-left: -19px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #007185;
+    margin-top: 20px;
+}
+
+.para-1-1_2{
+    color: green;
+    margin-left: -222px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.para-1-2_2{
+    margin-left: 6px;
+    margin-top: 7px;
+    border: 2px dashed black;
+    width: 134px;
+    height: 22px;
+}
+
+.para-1-2_2{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.para-1-3_2{
+    margin-left: -125px;
+    margin-top: 7px;
+}
+
+.off_2{
+    background-color: rgb(223, 22, 22);
+    height: 42px;
+    width: 85px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.para-1-4_2{
+    color: red;
+    margin-top: -35px;
+    margin-left: -14px;
+    font-weight: 1000;
+}
+
+.para-1-5_2{
+    color: black;
+    font-size: 2.3rem;
+margin-left: -187px;
+margin-top: 12px;
+font-weight: bolder;
+}
+
+.para-1-6_2{
+    margin-left: -244px;
+    margin-top: 0px;
+}
+
+.para-1-7_2{
+    margin-left: -108px;
+    margin-top: -18px;
+    text-decoration: line-through;
+}
+/* 
+.sup-para-1{
+    font-size: 1.2rem;
+     padding-top: 100px;
+} */
+
+/**phone__3**/
+
+.item_3{
+    height: 578px;
+    width: 430px;
+    border: 2px solid black;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 15px;
+    margin-top: 18px;
+    margin-bottom: 50px;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.item_3 img{
+    height: 299px;
+    width: 283px;
+    margin-top: 17px;
+}
+
+.para-1_3{
+    font-size: 1.5rem;
+    margin-left: -12px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #007185;
+}
+
+.para-1-1_3{
+    color: green;
+    margin-left: -249px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.para-1-2_3{
+    margin-left: 15px;
+    margin-top: 4px;
+    border: 2px dashed black;
+    width: 134px;
+    height: 22px;
+}
+
+.para-1-2_3{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.para-1-3_3{
+    margin-left: -106px;
+    margin-top: 8px;
+}
+
+.off_3{
+    background-color: rgb(223, 22, 22);
+    height: 42px;
+    width: 85px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.para-1-4_3{
+    color: red;
+    margin-top: -35px;
+    margin-left: 1px;
+    font-weight: 1000;
+}
+
+.para-1-5_3{
+    color: black;
+    font-size: 2.3rem;
+margin-left: -221px;
+margin-top: 15px;
+font-weight: bolder;
+}
+
+.para-1-6_3{
+    margin-left: -237px;
+    margin-top: 2px;
+}
+
+.para-1-7_3{
+    margin-left: -113px;
+    margin-top: -17px;
+    text-decoration: line-through;
+}
+/* 
+.sup-para-1{
+    font-size: 1.2rem;
+     padding-top: 100px;
+} */
+
+/**phone__4**/
+
+.item_4{
+    height: 578px;
+    width: 430px;
+    border: 2px solid black;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 15px;
+    margin-top: 18px;
+    margin-bottom: 50px;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.item_4 img{
+    height: 301px;
+    width: 266px;
+    margin-top: 14px;
+}
+
+.para-1_4{
+    font-size: 1.5rem;
+    margin-left: 5px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #007185;
+}
+
+.para-1-1_4{
+    color: green;
+    margin-left: -229px;
+    margin-top: -3px;
+    font-weight: bold;
+}
+
+.para-1-2_4{
+    margin-left: 9px;
+    margin-top: 2px;
+    border: 2px dashed black;
+    width: 134px;
+    height: 22px;
+}
+
+.para-1-2_4{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.para-1-3_4{
+    margin-left: -114px;
+    margin-top: 5px;
+}
+
+.off_4{
+    background-color: rgb(223, 22, 22);
+    height: 42px;
+    width: 85px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    margin-left: 7px;
+    margin-top: 3px;
+}
+
+.para-1-4_4{
+    color: red;
+    margin-top: -35px;
+    margin-left: -10px;
+    font-weight: 1000;
+}
+
+.para-1-5_4{
+    color: black;
+    font-size: 2.3rem;
+margin-left: -191px;
+margin-top: 16px;
+font-weight: bolder;
+}
+
+.para-1-6_4{
+    margin-left: -219px;
+    margin-top: -2px;
+}
+
+.para-1-7_4{
+    margin-left: -99px;
+    margin-top: -17px;
+    text-decoration: line-through;
+}
+/* 
+.sup-para-1{
+    font-size: 1.2rem;
+     padding-top: 100px;
+} */
+
+/**phone__6**/
+
+.item_5{
+    height: 578px;
+    width: 430px;
+    border: 2px solid black;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 15px;
+    margin-top: 18px;
+    margin-bottom: 50px;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.item_5 img{
+    height: 317px;
+    width: 307px;
+    margin-top: 1px;
+}
+
+.para-1_5{
+    font-size: 1.5rem;
+    margin-left: -24px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #007185;
+}
+
+.para-1-1_5{
+    color: green;
+    margin-left: -249px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.para-1-2_5{
+    margin-left: 7px;
+    margin-top: 6px;
+    border: 2px dashed black;
+    width: 134px;
+    height: 22px;
+}
+
+.para-1-2_5{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.para-1-3_5{
+    margin-left: -121px;
+    margin-top: 9px;
+}
+
+.off_5{
+    background-color: rgb(223, 22, 22);
+    height: 42px;
+    width: 85px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    margin-left: 6px;
+    margin-top: 3px;
+}
+
+.para-1-4_5{
+    color: red;
+    margin-top: -35px;
+    margin-left: -15px;
+    font-weight: 1000;
+}
+
+.para-1-5_5{
+    color: black;
+    font-size: 2.3rem;
+margin-left: -182px;
+margin-top: 13px;
+font-weight: bolder;
+}
+
+.para-1-6_5{
+    margin-left: -232px;
+    margin-top: 0px;
+}
+
+.para-1-7_5{
+    margin-left: -97px;
+    margin-top: -17px;
+    text-decoration: line-through;
+}
+/* 
+.sup-para-1{
+    font-size: 1.2rem;
+     padding-top: 100px;
+} */
+
+
+/**Video amazon mini tv **/
+
+.amazon-minitv{
+    width: 100%;
+    height: 700px;
+    background-color: #ddd;
+    display: flex;
+}
+
+.crushed{
+    /* height: 452px; */
+    width: 782px;
+    /* border: 2px solid black; */
+    margin-left: 76px;
+    margin-top: -210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minitv-video{
+    width: 1010px;
+    height: 510px;
+}
+
+/**box-1**/
+
+.box-minitv-1{
+    height:330px;
+    margin-top: 15px;
+    margin-left: -116px;
+    margin-bottom: 15px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-content-minitv-1{
+    margin-left: 201px;
+    margin-right: -29px;
+    margin-top: -24px;
+    background-color: white;
+    height: 508px;
+    width: 460px;
+
+}
+
+.box-minitv-heading-1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.box-img-minitv-1{
+height: 330px;
+width: 402px;
+margin-top: 21px;
+margin-left: 27px;
+margin-bottom: 15px;
+background-size: cover;
+}
+
+.sale-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 162, 10);
+    width: 102px;
+    height: 36px;
+    margin-left: 28px;
+    margin-bottom: 18px;
+}
+
+.para-minitv-2{
+    font-size: 0.85rem;
+    margin-left: 147px;
+    margin-top: -43px;
+}
+
+.seemore-1{
+    text-decoration: none;
+    color: #007185;
+    margin-left: 26px;
+}
+
+/**box-2**/
+
+.box-minitv-3{
+    height:330px;
+    margin-top: 15px;
+    margin-left: -116px;
+    margin-bottom: 15px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-minitv-3{
+    height:330px;
+    margin-top: 15px;
+    margin-left: -116px;
+    margin-bottom: 15px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-content-minitv-3{
+    margin-left: 170px;
+    margin-right: 15px;
+    margin-top: -23px;
+    background-color: white;
+    height: 508px;
+    width: 460px;
+
+}
+
+.box-minitv-heading-3{
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.box-img-minitv-3{
+height: 330px;
+width: 402px;
+margin-top: 21px;
+margin-left: 27px;
+margin-bottom: 15px;
+background-size: cover;
+}
+
+.sale-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223 , 22 , 22);
+    width: 102px;
+    height: 36px;
+    border: 2px solid black;
+    margin-left: 28px;
+    margin-bottom: 18px;
+}
+
+.para-minitv-3{
+    font-size: 0.85rem;
+    margin-left: 155px;
+    margin-top: -46px;
+}
+
+.para-minitv{
+    color: white;
+}
+
+.seemore-3{
+    text-decoration: none;
+    color: #007185;
+    margin-left: 26px;
+}
+
+.box-minitv-3{
+    height:330px;
+    margin-top: 15px;
+    margin-left: -116px;
+    margin-bottom: 15px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-section-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin-top: 15px; */
+    background-color: #e2e7e6;
+    margin-top: -208px;
+}
+/* 
+.crushed-para{
+    font-size: 1.5rem;
+} */
+
+
+/**ship section - 2 **/
+
+.shop-1{
+    height: 430px;
+    width: 21%;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-left: -13px;
+    margin-right: -11px;
+    /* height: 934px; */
+}
+
+.box-img-1{
+    height: 265px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    background-size: cover;
+    width: 253px;
+    margin-left: 69px;
+}
+
+.box-content-1{
+    margin-left: 29px;
+    margin-right: 15px;
+    margin-top: -6px;
+}
+
+.box-img-01{
+    height: 290px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.paragraph-1{
+    font-weight: 100;
+}
+
+.paragraph-2{
+    font-size: 2rem;
+}
+
+.paragraph-3{
+    font-weight: 100;
+    font-size: 0.85rem;
+    margin-left: 157px;
+    margin-top: -24px;
+}
+
+.paragraph-4{
+    font-size: 0.85rem;
+    font-weight: 100;
+    text-decoration: line-through;
+    margin-left: 209px;
+    margin-top: -15px;
+}
+
+.paragraph-5{
+    color: #007185;
+    font-weight: 700;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.shop-2{
+    height: 430px;
+    width: 33%;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-right: -19px;
+}
+
+.box-img-2{
+    height:330px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.box-content-2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.seemore-02{
+    color: #007185;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/* .box-img-01{
+    height: 290px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-size: cover;
+} */
+
+
+
+.shop-3{
+    height: 430px;
+    width: 22%;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+
+.box-img-3{
+    height: 306px;
+    margin-top: 15px;
+    margin-bottom: 32px;
+    background-size: cover;
+}
+
+.box-content-3{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.seemore-03{
+    color: #007185;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/* .box-img-01{
+    height: 290px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-size: cover;
+} */
+
+
+
+.shop-4{
+    height: 430px;
+    width: 22%;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-left: -7px;
+    margin-right: -9px;
+}
+
+.box-img-4{
+    height: 237px;
+    margin-top: 57px;
+    margin-bottom: 39px;
+    background-size: cover;
+    width: 326px;
+    margin-left: 21px;
+}
+
+.box-content-4{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.seemore-04{
+    color: #007185;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/* .box-img-01{
+    height: 290px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-size: cover;
+} */
+
+
+.hero-section-3{
+    background-image: url(970X250-_desktop_banner.jpg);
+    background-size: cover;
+    height: 401px;
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+
+
+.white-area{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-top: 2px  solid rgb(169, 168, 168);
+    border-bottom: 2px solid  rgb(169, 168, 168);
+}
+
+.paragraph{
+   font-size: 1.6rem;
+   margin-top: 46px;
+margin-left: 122px;
+color: grey;
+font-weight: 100;
+}
+
+.footer-upper{ 
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: grey;
+    margin-top: 145px;
+    margin-left: -664px;
+}
+
+.green-note{
+    text-decoration: none;
+    font-size: 0.75rem;
+color: green;
+margin-left: 768px;
+margin-top: 70px;
+}
+
+.green-note:hover{
+    color: rgb(207, 46, 46);
+}
+
+/**footer*/
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 30px;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.96rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+ul p {
+    color: white;
+font-size: 1.4rem;
+font-weight: bolder;
+padding-bottom: 10px;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid rgb(201, 200, 200);
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 90px;
+    width: 155px;
+    margin-right: 50px;
+}
+
+.panel-eng{
+    height: 33px;
+    width: 130px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.panel-dollar{
+    height: 33px;
+    width: 185px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.panel-united{
+    height: 33px;
+    width: 150px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4{
+    background-color: #131a22;
+    color: white;
+    height: 100px;
+    /* display: flex;
+    justify-content: center;
+align-items: center; */
+}
+
+.pages{
+    font-size: 0.91rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.copyright{
+font-size: 0.91rem;
+padding-top: 10px;
+text-align: center;
+font-weight: 500;
+}
+
+.pages a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: arial;
+}
+
+.foot-panel5{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #131a22;
+    padding-bottom: 50px;
+}
+
+
+
+/**panel-5**/
+.amazon-music{
+    height: 100px;
+    width: 200px;
+}
+
+.p-amazon-music{
+    color: white;
+    font-size: 1rem;
+}
+
+.p-amazon-music:hover{
+    text-decoration: underline;
+}
+
+.amazon-music a:hover{
+    text-decoration: underline;
+}
+
+.amazon-music a{
+    color: rgb(171, 169, 169);
+    font-size: 0.85rem;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.first-row-one{
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    /* border: 2px solid white; */
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+
+.first-row-two{
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    /* border: 2px solid white; */
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.first-row-three{
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    /* border: 2px solid white; */
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.first-row-four{
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    /* border: 2px solid white; */
+    width: 100%;
+    margin-bottom: -5px
+}
+
+#star{
+    color: rgb(243, 127, 3);
+}
